@@ -1,23 +1,20 @@
 {
-  "dependencies": {
-    "three": "^0.170.0"
-  },
-  "name": "virgo",
+  "name": "my-3d-environment",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000V\u0000i\u0000r\u0000g\u0000o\u0000\r\u0000 \u0000#\u0000 \u0000V\u0000i\u0000r\u0000g\u0000o\u0000\r\u0000 \u0000",
-  "main": "script.js",
-  "devDependencies": {
-    "@babel/core": "^7.26.0",
-    "@babel/preset-env": "^7.26.0",
-    "babel-loader": "^9.2.1",
-    "webpack": "^5.96.1",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.1.0"
-  },
+  "main": "index.js",
   "scripts": {
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "build": "webpack --mode production"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "webpack": "^5.x.x",
+    "webpack-cli": "^5.x.x",
+    "webpack-dev-server": "^4.x.x",
+    "babel-loader": "^8.x.x",
+    "@babel/core": "^7.x.x",
+    "@babel/preset-env": "^7.x.x"
+  },
+  "dependencies": {
+    "three": "^0.153.0"
+  }
 }
